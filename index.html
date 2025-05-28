@@ -471,225 +471,34 @@
             </label>
             <label class="flex items-center">
               <input type="radio" id="bankTransfer" name="paymentMethod" value="bank" class="text-blue-500 focus:ring-blue-500" required="">
-              <span class="ml-2 text-gray-700">Κατάθεση σε λογαριασμό Τράπεζας Revolut</span>
+              <span class="ml-2 text-gray-700">Κατάθεση σε λογαριασμό Τράπεζας (Revolute ή BCR)</span>
             </label>
           </div>
         </fieldset>
 
         <!-- Payment Link Section -->
         <div id="paymentLink" style="display: none;" class="mt-4">
+          <div>
+  <img src="cardimage.png" alt="Description of image">
+</div>
+           
            
 
-            <div class="my-greek-form">
-  <div class="form-container">
-    <!-- Payment Method Section -->
-    <div class="payment-method-section">
-      <div class="payment-method-title">
-        Τρόπος πληρωμής: <span class="required-asterisk">*</span>
-      </div>
-      <div class="payment-option">
-        Πληρωμή με κάρτα
-      </div>
-    </div>
-
-    <!-- Main Title Section -->
-    <div class="main-title-section" style="padding: 10px 0;">
-  <div class="main-title" style="font-size: 20px; line-height: 1.2; margin-bottom: 5px;">
-    Πληρωμή με Κάρτα
-  </div>
-  <div class="subtitle" style="font-size: 14px; line-height: 1.2;">
-    (ελέγξτε το ημερήσιο όριο πληρωμής στην κάρτα σας)
-  </div>
-</div>
-
-
-    <!-- Card Payment Link Section -->
-   <div class="card-link-section">
-    <a href="https://checkout.revolut.com/pay/cf7eb2fb-506d-45f3-b1cd-96e5e0ed635b" class="card-link">
-        Κάντε κλικ εδώ για να πραγματοποιήσετε την πληρωμή με κάρτα
-    </a>
-</div>
-
-    
-
-    <!-- Instructions Section -->
-    <div class="instructions-section">
-      <div class="instruction-paragraph">
-        <p class="point-one">
-          # Αν σας καλέσουν από την τράπεζά σας (για λόγους
-          <span class="security-underline">ασφαλείας</span>), ευχαριστήστε τους (!) και επιβεβαιώστε ότι :
-        </p>
-        <p>(α) μας γνωρίζετε και</p>
-        <p>(β) εγκρίνετε τη μεταφορά σε όποιον τραπεζικό λογαριασμό επιλέξατε</p>
-        <p>(γ) αν δεν επαρκεί το ημερήσιο όριο της κάρτας σας ζητήστε να το αναπροσαρμόσουν για αυτή την πληρωμή</p>
-      </div>
-
-      <div class="instruction-paragraph">
-        <p class="point-one">
-          # Ολοκληρώνοντας τη μεταφορά, επισυνάψτε το αποδεικτικό μεταφοράς στη φόρμα ασφαλούς πληρωμής
-          <span class="submit-highlight">ΚΑΙ πατήστε ΥΠΟΒΟΛΗ</span>. Και θα λάβετε:
-        </p>
-        <p>(α) το τιμολόγιό σας</p>
-        <p>(β) επιβεβαίωση της πληρωμής και εγγραφής σας στο πρόγραμμα</p>
-        <p>(γ) σύνδεσμο για να κλείσετε την ¹η σας συνάντηση!</p>
-      </div>
-
-      <div class="final-notec">
-        <p>Είμαστε εδώ για να σας υποστηρίξουμε, οπότε μη διστάσετε να μας καλέσετε αν χρειάζεστε βοήθεια.</p>
-        <p>Εκτιμούμε τη συνεργασία σας και σας ευχαριστούμε για την εμπιστοσύνη!</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-        </div>
+        </div> 
 
         <!-- Bank Details Section -->
  <div id="bankDetails" style="display: none;" class="mt-4">
     
-
-<div class="my-greek-form">
-    <div class="form-container">
-        
-
-        <div class="payment-method-section">
-      <div class="payment-method-title">
-        Τρόπος πληρωμής: <span class="required-asterisk">*</span>
-      </div>
-      <div class="payment-option">
-        Κατάθεση σε τραπεζικό λογαριασμό
-      </div>
-    </div>
-        
-        <!-- Title Section -->
-      <!-- Header Table -->
-<table style="width: 100%; border: 2px solid black; border-collapse: collapse; margin-bottom: 20px; text-align: center;">
-<tbody>
-<tr>
-<td style="padding: 10px;">
-<div style="font-weight: bold; font-size: 20px;">Πληρωμή με μεταφορά σε λογαριασμό</div>
-<div style="font-size: 14px;">(επιλέξτε τράπεζά μας, ελέγξτε το ημερήσιο όριο μεταφοράς σας)</div>
-</td>
-</tr>
-</tbody>
-</table>
- 
-<!-- Body Tables Container -->
-<div style="display: flex; justify-content: space-between; gap: 20px;">
- 
-  <!-- Table A -->
-<table style="width: 49%; border: 2px solid black; border-collapse: collapse; font-family: sans-serif; font-size: 14px;">
-<tbody>
-<tr>
-<td style="border: 2px solid black; font-weight: bold; padding: 8px 10px; font-size: 11px">Τράπεζα Δικαιούχου:</td>
-<td style="border: 1px solid black; text-align: center; padding: 8px 0px; font-size: 11px">
-<div style="font-weight: bold; text-decoration: underline; border-bottom: 2px solid black; padding-bottom:10px; font-size: 11px">Τράπεζα A</div>
-          Revolut Bank UAB<br />Vilnius Sucursala Bucuresti
-</td>
-</tr>
-<tr>
-<td style="border: 2px solid black; font-weight: bold; padding: 8px 10px; font-size: 11px">BIC Τράπεζας:</td>
-<td style="border: 1px solid black; text-align: center; font-weight: bold; padding: 8px 10px; font-size: 11px">REVOROBB</td>
-</tr>
-<tr>
-<td style="border: 2px solid black; font-weight: bold; padding: 8px 10px; font-size: 11px">Διεύθυνση Τράπεζας:</td>
-<td style="border: 2px solid black; text-align: center; padding: 8px 10px; font-size: 11px">
-<strong>Bucuresti, Romania</strong><br />
-<span style="font-style: italic; font-size: 10px;">
-            (Bulevardul Ion Mihalache Nr. 15-17,<br />
-            MINDSPACE VICTORIEI, TOWER CENTER INTERNATIONAL,<br />
-            BIROU 111, Etaj 1, Sector 1, 011171)
-</span>
-</td>
-</tr>
-<tr>
-<td style="border: 2px solid black; font-weight: bold; padding: 8px 10px; font-size: 11px">IBAN Δικαιούχου:</td>
-<td style="border: 2px solid black; text-align: center; font-weight: bold; padding: 8px 10px; font-size: 11px">RO43 REVO 0000 3101 8417 4367</td>
-</tr>
-</tbody>
-</table>
- 
-  <!-- Table B -->
-<table style="width: 49%; border: 2px solid black; border-collapse: collapse; font-family: sans-serif; font-size: 14px;">
-<tbody>
-<tr>
-<td style="border: 2px solid black; text-align: center;  ">
-<div style="font-weight: bold; text-decoration: underline; border-bottom: 2px solid black; padding-bottom:7px; font-size: 11px">Τράπεζα B</div>
-<div style="padding: 15px 0px 0px 0px; font-size: 11px">
-          BANCA COMERCIALA ROMANA S.A</div>
-</td>
-</tr>
-<tr>
-<td style="border: 2px solid black; text-align: center; font-weight: bold; padding:  8px 10px; font-size: 11px">RNCBROBU</td>
-</tr>
-<tr>
-<td style="border: 2px solid black; text-align: center; padding: 18px 5px; font-size: 11px">
-<strong>Bucuresti, Romania</strong><br />
-<span style="font-style: italic; font-size: 11px">(Bd Regina Elisabeta 5 - SECTOR 3, 30016)</span>
-</td>
-</tr>
-<tr>
-<td style="border: 2px solid black; text-align: center; font-weight: bold; padding: 8px 10px; font-size: 11px">RO43 RNCB 0179 1821 9350 0002</td>
-</tr>
-</tbody>
-</table>
- 
+    <div>
+  <img src="bankimage.png" alt="Description of image">
 </div>
-        
-        <!-- Company Information Section -->
-         <div>
-
-        
-        <table style="width: 100%; border: 2px solid black; border-collapse: collapse; font-family: sans-serif; font-size: 14px;margin-top:15px">
-<tbody>
-<tr>
-<td style="border: 2px solid black; font-weight: bold; padding: 8px 10px; font-size: 11px;width:18%">Δικαιούχος:</td>
-<td style="border: 1px solid black; text-align: center; padding: 8px 0px; font-size: 11px">
-
-        <strong> CHANGELAND SRL</strong><br>
-(εταιρία του Ομίλου Changeland)
-</td>
-</tr>
-<tr>
-<td style="border: 2px solid black; font-weight: bold; padding: 8px 10px; font-size: 11px; display">ΑΦΜ<br> Δικαιούχου:</td>
-<td style="border: 1px solid black; text-align: center; font-weight: bold; padding: 8px 10px; font-size: 11px">RO47311879</td>
-</tr>
-<tr>
-<td style="border: 2px solid black; font-weight: bold; padding: 8px 10px; font-size: 11px">Διεύθυνση Δικαιούχου:</td>
-<td style="border: 2px solid black; text-align: center; padding: 8px 10px; font-size: 11px">
-<strong>DROBETA TURNU SEVERIN, Romania</strong><br />
-<span style="font-style: italic; font-size: 10px;">
-           DROBETA TURNU SEVERIN, Romania
-(BD TUDOR VLADIMIRESCU 255, B217, 220206)
-</span>
-</td>
-</tr>
-<tr>
-<td style="border: 2px solid black; font-weight: bold; padding: 8px 10px; font-size: 11px">Αιτιολογία:</td>
-<td style="border: 2px solid black; text-align: center;  padding: 8px 10px; font-size: 11px">Accelerator - Όνομα + Επίθετο</td>
-</tr>
-</tbody>
 
 
-</table>
-         </div>
-        <!-- Instructions Section -->
-        <div class="instructions">
-            <p class="point-one"># Αν σας καλέσουν από την τράπεζά σας (για λόγους <span class="security-underline">ασφαλείας</span>), ευχαριστήστε τους (!) και επιβεβαιώστε ότι :</p>
-            <p>(α) μας γνωρίζετε και</p>
-            <p>(β) εγκρίνετε τη μεταφορά σε όποιον τραπεζικό λογαριασμό επιλέξατε</p>
-            <p>(γ) αν δεν επαρκεί το ημερήσιο όριο της κάρτας σας ζητήστε να το αναπροσαρμόσουν για αυτή την πληρωμή</p>
-            
-            <p class="point-one"># Ολοκληρώνοντας τη μεταφορά, επισυνάψτε το αποδεικτικό μεταφοράς στη φόρμα ασφαλούς πληρωμής <span class="submit-highlight">ΚΑΙ πατήστε ΥΠΟΒΟΛΗ</span>. Και θα λάβετε:</p>
-            <p>(α) το τιμολόγιό σας  </p>
-            <p>(β) επιβεβαίωση της πληρωμής και εγγραφής σας στο πρόγραμμα</p>
-            <p>(γ) σύνδεσμο για να κλείσετε την 1η σας συνάντηση!</p>
-            
-            <p class="final-note">Είμαστε εδώ για να σας υποστηρίξουμε, οπότε μη διστάσετε να μας καλέσετε αν χρειάζεστε βοήθεια. </p>
-            <p class="final-note"> Εκτιμούμε τη συνεργασία σας και σας ευχαριστούμε για την εμπιστοσύνη!</p>
-        </div>
-    </div>
+          
 </div>
+
+
+    </div>
 </div>
 
 
